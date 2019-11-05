@@ -1,11 +1,11 @@
 export default {
   //
   php: {
-    dev: 'http://apitest.jaadee.net/',
-    pro: 'http://api.jaadee.net/'
+    dev: 'https://apitest.jaadee.net/',
+    pro: 'https://api.jaadee.net/'
   },
   java: {
-    dev: 'http://dev.jaadee.net:8000/api/',
+    dev: 'https://dev.jaadee.net:8000/api/',
     pro: 'https://ser.jaadee.net/'
   },
   //

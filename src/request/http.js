@@ -1,6 +1,6 @@
 import axios from 'axios'
 import store from '../store/index'
-import config from '../config/config'
+import config from './network.config'
 import qs from 'qs'
 
 const errorHandler = (status, other) => {
@@ -42,7 +42,7 @@ export default function Http (base = 'php', showLoading = true, showMsg = true) 
 
   delete config.php
   delete config.java
-  config.baseUrl = baseUrl
+  config.baseURL = baseUrl
 
   var instance = axios.create(config)
   instance.interceptors.request.use(
